@@ -2324,4 +2324,214 @@ const questions = [
     B: "Vital signs are important, but they do not directly address the likely cause of abdominal discomfort during bladder irrigation."
   }
 },
+{
+  question: "A patient presents to an ambulatory surgical centre for a hip procedure. The anaesthetic plan involves spinal anaesthesia. Which spinal additive would be the best option to intensify the block in the ambulatory setting?",
+  options: {
+    A: "Morphine",
+    B: "Epinephrine",
+    C: "Fentanyl"
+  },
+  correctAnswer: "C",
+  rationaleCorrect: "Fentanyl is a short-acting opioid that can be added to spinal anaesthesia to improve the quality of the block and provide better pain control without excessively prolonging recovery. This makes it useful in ambulatory surgery where early discharge is expected.",
+  rationalesIncorrect: {
+    A: "Intrathecal morphine provides long-lasting analgesia, but it can delay discharge and may cause late respiratory depression, nausea, vomiting and itching.",
+    B: "Epinephrine may prolong the duration of the block, but this is not ideal for ambulatory surgery where quick recovery is preferred."
+  }
+},
+{
+  question: "A patient presents with shallow ulcerated lesions on the lower legs above the ankles. He has varicosities in the lower extremities with pitting oedema to the midpoint of the lower leg. The lower extremities are warm, and the lesions have irregular margins and granulation tissue. The skin is hyperpigmented above the ankles. What is the most likely diagnosis?",
+  options: {
+    A: "Diabetic ulcer",
+    B: "Pressure ulcer",
+    C: "Venous stasis ulcer"
+  },
+  correctAnswer: "C",
+  rationaleCorrect: "Venous stasis ulcers commonly occur around the lower leg and ankle region. They are associated with varicose veins, pitting oedema, warm skin, irregular wound margins, granulation tissue and brownish hyperpigmentation from chronic venous insufficiency.",
+  rationalesIncorrect: {
+    A: "Diabetic ulcers commonly occur on pressure points of the foot, especially the sole, heel or toes, and are usually associated with neuropathy.",
+    B: "Pressure ulcers occur over bony prominences due to prolonged pressure, not usually with varicosities and venous skin changes."
+  }
+},
+{
+  question: "A patient presents with wrist drop. The Charge Nurse would be concerned about compression of which nerve?",
+  options: {
+    A: "Radial nerve",
+    B: "Ulnar nerve",
+    C: "Median nerve"
+  },
+  correctAnswer: "A",
+  rationaleCorrect: "Wrist drop occurs when the radial nerve is compressed or injured. The radial nerve supplies the muscles responsible for wrist and finger extension.",
+  rationalesIncorrect: {
+    B: "Ulnar nerve injury commonly affects grip and causes clawing of the ring and little fingers.",
+    C: "Median nerve injury affects thumb opposition and sensation in the thumb, index, middle and part of the ring finger."
+  }
+},
+{
+  question: "A patient reports to the emergency unit with bleeding from the ear. Initial assessment shows perforation of the tympanic membrane. The nurse understands that the surgical intervention of choice will be:",
+  options: {
+    A: "Tympanoplasty",
+    B: "Tympanotomy",
+    C: "Tympanoscopy"
+  },
+  correctAnswer: "A",
+  rationaleCorrect: "Tympanoplasty is the surgical repair of a perforated tympanic membrane. It helps restore the eardrum and improve hearing.",
+  rationalesIncorrect: {
+    B: "Tympanotomy involves making an incision into the tympanic membrane or middle ear and is not the repair of a perforated eardrum.",
+    C: "Tympanoscopy means visual examination of the tympanic membrane and middle ear structures, not repair."
+  }
+},
+{
+  question: "A patient reports to the emergency ward with left hip pain following minor trauma, fever and cough before the trauma. He has limited and painful range of motion of the left hip and cannot bear weight. Blood test shows raised WBC count. He is admitted for suspected osteomyelitis. Possible nursing diagnoses may include the following EXCEPT:",
+  options: {
+    A: "Impaired physical mobility",
+    B: "Ineffective thermoregulation",
+    C: "Ineffective airway clearance"
+  },
+  correctAnswer: "C",
+  rationaleCorrect: "Osteomyelitis mainly affects the bone and can cause pain, fever and reduced mobility. Ineffective airway clearance is not a typical nursing diagnosis directly related to osteomyelitis.",
+  rationalesIncorrect: {
+    A: "Impaired physical mobility is appropriate because the patient has hip pain, painful movement and inability to bear weight.",
+    B: "Ineffective thermoregulation may be appropriate because the patient has fever and raised WBC count, suggesting infection."
+  }
+},
+{
+  question: "A patient reports to the hospital with swollen neck and hoarseness of voice. He is diagnosed with hyperthyroidism. The following could be causes of his condition EXCEPT:",
+  options: {
+    A: "Thyroiditis",
+    B: "Toxic multinodular goitre",
+    C: "Hashimoto’s thyroiditis"
+  },
+  correctAnswer: "C",
+  rationaleCorrect: "Hashimoto’s thyroiditis is mainly associated with hypothyroidism because it gradually destroys thyroid tissue. Therefore, it is not a typical cause of sustained hyperthyroidism.",
+  rationalesIncorrect: {
+    A: "Some forms of thyroiditis can cause temporary hyperthyroidism due to leakage of thyroid hormones into the blood.",
+    B: "Toxic multinodular goitre is a known cause of hyperthyroidism because multiple thyroid nodules produce excess thyroid hormone."
+  }
+},
+{
+  question: "A patient reports with epigastric pain 3–4 hours after eating. The pain also wakes her up during the night. She is likely to be diagnosed with:",
+  options: {
+    A: "Gastric ulcer",
+    B: "Oesophageal ulcer",
+    C: "Duodenal ulcer"
+  },
+  correctAnswer: "C",
+  rationaleCorrect: "Duodenal ulcer pain commonly occurs 2–4 hours after meals and may wake the patient at night. It often improves temporarily with food or antacids.",
+  rationalesIncorrect: {
+    A: "Gastric ulcer pain usually occurs shortly after meals and may worsen with eating.",
+    B: "Oesophageal ulcer pain is more commonly related to swallowing, reflux symptoms or retrosternal burning."
+  }
+},
+{
+  question: "A patient reports having an allergy to penicillin. Which question would elicit the most useful information for the nurse?",
+  options: {
+    A: "What type of allergic reaction did you have?",
+    B: "Did you notify your physician of the allergy?",
+    C: "What infection did you have that required penicillin?"
+  },
+  correctAnswer: "A",
+  rationaleCorrect: "The nurse must determine the exact reaction the patient experienced, such as rash, itching, swelling, breathing difficulty or anaphylaxis. This helps assess the severity and guide safe medication use.",
+  rationalesIncorrect: {
+    B: "This is useful but does not tell the nurse what reaction occurred.",
+    C: "The type of infection is less important than the nature of the allergic reaction."
+  }
+},
+{
+  question: "A patient returns to the ward after undergoing open reduction and internal fixation. She complains of severe pain despite opioid analgesic administration. Further assessment suggests compartment syndrome. A delay in reporting the pain can ultimately result in:",
+  options: {
+    A: "Bleeding",
+    B: "Necrosis",
+    C: "Infection"
+  },
+  correctAnswer: "B",
+  rationaleCorrect: "Compartment syndrome causes increased pressure within a closed muscle compartment. If not treated quickly, blood supply is reduced, leading to tissue ischaemia and eventually necrosis.",
+  rationalesIncorrect: {
+    A: "Bleeding may contribute to compartment syndrome, but the dangerous outcome of delayed treatment is tissue death.",
+    C: "Infection is a possible surgical complication, but it is not the main immediate consequence of untreated compartment syndrome."
+  }
+},
+{
+  question: "A patient returns to the ward fully awake following bronchoscopy and biopsy. What should the nurse do?",
+  options: {
+    A: "Advise patient to lie flat for 2 hours",
+    B: "Evaluate the presence of gag reflex",
+    C: "Advise the patient to cough frequently"
+  },
+  correctAnswer: "B",
+  rationaleCorrect: "After bronchoscopy, the throat may still be numb from local anaesthesia. The nurse must check for return of the gag reflex before allowing oral intake to prevent aspiration.",
+  rationalesIncorrect: {
+    A: "Lying flat is not the priority and may increase aspiration risk.",
+    C: "Frequent coughing may irritate the airway and increase bleeding risk after biopsy."
+  }
+},
+{
+  question: "A patient scheduled for caesarean section is to have spinal anaesthesia. Which is the most dangerous complication during the induction of spinal anaesthesia?",
+  options: {
+    A: "Cardiac arrest",
+    B: "Hyperthermia",
+    C: "Hypotension"
+  },
+  correctAnswer: "C",
+  rationaleCorrect: "Hypotension is a dangerous complication of spinal anaesthesia because sympathetic blockade causes vasodilation and reduced venous return. In caesarean section, severe hypotension can reduce blood flow to both mother and baby.",
+  rationalesIncorrect: {
+    A: "Cardiac arrest is extremely serious, but hypotension is the expected dangerous complication during induction that must be prevented and treated early.",
+    B: "Hyperthermia is not a typical complication of spinal anaesthesia."
+  }
+},
+{
+  question: "A patient suffering from cataract will experience which of the following symptoms?",
+  options: {
+    A: "Cloudiness of lens",
+    B: "Narrowing of visual field",
+    C: "Softening of the lens"
+  },
+  correctAnswer: "A",
+  rationaleCorrect: "Cataract is opacity or clouding of the lens. It causes blurred vision, glare and difficulty seeing clearly.",
+  rationalesIncorrect: {
+    B: "Narrowing of visual field is more typical of glaucoma.",
+    C: "Cataract involves lens opacity, not softening."
+  }
+},
+{
+  question: "A patient sustained a simple fracture on the left leg and a Plaster of Paris is to be applied. To prevent indentation on a wet plaster cast, the nurse should use:",
+  options: {
+    A: "Her palms",
+    B: "More assistance",
+    C: "Both hands"
+  },
+  correctAnswer: "A",
+  rationaleCorrect: "A wet plaster cast should be handled with the palms, not the fingertips. Using the palms distributes pressure evenly and prevents dents or indentations in the cast.",
+  rationalesIncorrect: {
+    B: "Assistance may be helpful, but it does not specifically prevent indentation.",
+    C: "Using both hands can still cause indentation if the fingertips are used. The key point is to use the palms."
+  }
+},
+{
+  question: "A patient sustained a transverse fracture of the tibia 3 days ago and was treated with closed reduction and cast. Today he presents with increased pain, tingling and numbness. The lower extremity is tender and swollen, with increased pain on passive movement. Which investigation is indicated?",
+  options: {
+    A: "Ventilation-perfusion scan",
+    B: "Measurement of compartment pressure",
+    C: "CT scan of the lower extremity"
+  },
+  correctAnswer: "B",
+  rationaleCorrect: "The symptoms suggest compartment syndrome: severe pain, numbness, tingling, swelling and pain with passive movement. Measuring compartment pressure helps confirm the diagnosis and guides urgent treatment.",
+  rationalesIncorrect: {
+    A: "A ventilation-perfusion scan is used to assess pulmonary embolism, not compartment syndrome.",
+    C: "CT scan may show bone injury but is not the best test for suspected compartment syndrome."
+  }
+},
+{
+  question: "A patient sustains a penetrating chest injury and is rushed to the emergency department. Which assessment finding can help identify possible involvement of the aorta?",
+  options: {
+    A: "Bleeding into the pleural space",
+    B: "Checking the peripheral pulse",
+    C: "Noting and reporting hypotension"
+  },
+  correctAnswer: "C",
+  rationaleCorrect: "Aortic injury can cause massive internal bleeding and shock. Hypotension is a critical sign that may suggest major vascular injury and must be reported immediately.",
+  rationalesIncorrect: {
+    A: "Bleeding into the pleural space can occur with major chest vascular injury, but it is not something the nurse can directly identify without investigation.",
+    B: "Pulse assessment is important, but hypotension is a stronger indicator of major blood loss from possible aortic injury."
+  }
+},
 ];
